@@ -37,4 +37,7 @@ function oddSumOfAnArray(numbers){
 }
 const myArray = [34,23,21, 36, 75, 3];
 const sum = oddSumOfAnArray(myArray);
-console.log(sum);
+// console.log(sum);
+
+
+
