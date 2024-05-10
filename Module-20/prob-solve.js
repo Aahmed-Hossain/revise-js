@@ -6,8 +6,8 @@ function isEven(number){
         return false;
     }
 }
-const checkNumber = isEven(35);
-// console.log(checkNumber);
+const checkNumber = isEven(34);
+console.log('even num:', checkNumber);
 
 function isLeapYear(year){
     const leapYear = (year % 4 );

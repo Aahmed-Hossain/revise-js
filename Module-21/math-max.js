@@ -9,3 +9,4 @@ if (largestNumber === -Infinity) {
 } else {
     console.log(`Largest number is ${largestNumber}`);
 }
+

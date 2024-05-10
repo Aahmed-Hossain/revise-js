@@ -7,7 +7,7 @@ function reverseString(text){
     }
     return reversed;
 }
-const text = 'STRINGSS';
+const text = 'STRINGS';
 const result = reverseString(text);
 console.log('reversed string:', result);
 
