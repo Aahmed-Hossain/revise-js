@@ -1,6 +1,6 @@
 // for declaration of function (I) keyword: function (II) function name (III) do something into the function (IV) call the function outside the function body.
 function startFn(){
-    // console.log('revising java script');
+    // console.log('revising java script')
 }
 startFn();
 
