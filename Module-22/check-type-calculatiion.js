@@ -5,5 +5,5 @@ function add(num1, num2){
     total = num1 + num2;
     return total;
 }
-const result = add(9,"45");
+const result = add(9,45);
 console.log(result);
