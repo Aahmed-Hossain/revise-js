@@ -9,4 +9,3 @@ function woodCalculation(chairQuantity, tableQuantity, bedQuantity){
 return totalWood;
 }
 const woodReq = woodCalculation(1, 0, 0);
-console.log(woodReq);
