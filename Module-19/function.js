@@ -23,12 +23,9 @@ function singara(money){
     var price = 10;
     var quantity = money / price;
     return quantity;
-
 }
 var myTK =  500;
 var singaras = singara(myTK);
-// console.log(`I will get:`, singaras ,"wow!");
-
 function addResult(assign1, assign2, assign3){
     var average = assign1 + assign2 + assign3;
     return average;
@@ -36,7 +33,6 @@ function addResult(assign1, assign2, assign3){
 var assign1 = 30;
 var assign2 = 28;
 var assign3 = 30;
-
 var result1 = addResult(assign1, assign2, assign3);
 var result2 = addResult(assign1, assign2, assign3);
 var result3 = addResult(assign1, assign2, assign3);
