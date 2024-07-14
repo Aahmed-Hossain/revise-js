@@ -18,3 +18,21 @@ for(var i = 0; i < nums.length; i++){
 //    }
 //    console.log(sum);
 // }
+
+
+
+function breakArr(arr) {
+   let result = [];
+   for (let i = 0; i < arr.length; i++) {
+      let element = arr[i];
+      if (element === 65) {
+         break;
+      }
+      result.push(element);
+   }
+   return result;
+}
+
+var arr = [23, 45, 65, 35, 3454, 676, 44, 86, 98];
+const result = breakArr(arr);
+console.log(result); // Output: [23, 45]
